@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 .container{
     width: 1500px;
@@ -13,7 +14,7 @@
     display: table;
 }
 .lang{
-    padding: 29px;
+    padding: 29px 29px 29px 0;
     float: left;
 }
 .contatti a{
@@ -27,15 +28,28 @@
 }
 .buttons a{
     text-decoration: none;
-    padding: 29px;
+    margin: 29px 0px 29px 29px;
 }
 .login{
-    margin: 29px;
+    margin: 29px 0px 29px 29px;
 }
 .register{
-    margin: 29px;
+    margin: 29px 0px 29px 29px;
 }
+nav img{
+    padding: 21px 21px 21px 0;
 
+}
+.menu{
+    float: right;
+    margin: 29px 0px 29px 29px;
+}
+.menu select, .lang select{
+    border: none;
+}
+.menu select, .menu a{
+    margin: 0 29px;
+}
 
 
 
