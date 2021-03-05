@@ -14,35 +14,39 @@
     display: table;
 }
 .lang{
-    padding: 29px 29px 29px 0;
+    padding-right: 25px;
+    line-height: 80px;
     float: left;
 }
 .contatti a{
     text-decoration: none;
     float: left;
     border-left: 1px solid black;
-    padding: 29px;
+    line-height: 80px;
+    padding-left: 25px;
 }
 .buttons{
     float: right;
 }
 .buttons a{
     text-decoration: none;
-    margin: 29px 0px 29px 29px;
+    line-height: 80px;
+    margin-right: 25px;
 }
 .login{
-    margin: 29px 0px 29px 29px;
+    margin: 0 25px;
 }
 .register{
-    margin: 29px 0px 29px 29px;
+    margin-left: 25px;
 }
 nav img{
-    padding: 21px 21px 21px 0;
+    line-height: 80px;
+    /* padding: 21px 21px 21px 0; */
 
 }
 .menu{
     float: right;
-    margin: 29px 0px 29px 29px;
+    line-height: 80px;
 }
 .menu select, .lang select{
     border: none;
@@ -103,6 +107,7 @@ nav img{
 }
 .b-grey{
     background-color: lightgrey;
+    height: 80px;
 }
 .b-rosa{
     background-color: #FEF6EE;
