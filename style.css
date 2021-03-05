@@ -50,6 +50,17 @@ nav img{
 .menu select, .menu a{
     margin: 0 29px;
 }
+.right, .left{
+    width: 50%;
+    float: left;
+}
+.right{
+
+}
+.left{
+    
+}
+
 
 
 
@@ -80,4 +91,10 @@ nav img{
 }
 .b-grey{
     background-color: lightgrey;
+}
+.b-rosa{
+    background-color: #FEF6EE;
+}
+.b-verde{
+    background-color: #AFEBE4;
 }
