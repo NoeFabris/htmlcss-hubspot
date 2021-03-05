@@ -7,6 +7,35 @@
     width: 1500px;
     margin: auto;
 }
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.lang{
+    padding: 29px;
+    float: left;
+}
+.contatti a{
+    text-decoration: none;
+    float: left;
+    border-left: 1px solid black;
+    padding: 29px;
+}
+.buttons{
+    float: right;
+}
+.buttons a{
+    text-decoration: none;
+    padding: 29px;
+}
+.login{
+    margin: 29px;
+}
+.register{
+    margin: 29px;
+}
+
 
 
 
