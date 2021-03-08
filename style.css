@@ -162,10 +162,37 @@
     margin-right: 30px;
 }
 .crm{
+    border-radius: 4px;
     padding: 30px;
 }
-
-
+.row{
+    width:  30%;
+    float: left;
+    text-align: center;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+.center{
+    margin: 0 5% 0 5%;
+}
+.row img{
+    width: 50%;
+    height: 170px;
+}
+.row h3, .row p, .row img, .row button{
+    padding: 25px;
+}
+.row button {
+    margin: 25px 0;
+}
+.row div p{
+    text-align: left;
+    padding: 0;
+}
+.colonne{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
 
 /* urility classes */
 .border{
