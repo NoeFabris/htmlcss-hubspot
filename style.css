@@ -18,12 +18,16 @@
     line-height: 80px;
     float: left;
 }
+.lang select{
+    background-color: lightgrey;
+}
 .contatti a{
     text-decoration: none;
     float: left;
     border-left: 1px solid black;
     line-height: 80px;
     padding-left: 25px;
+    color: black;
 }
 .buttons{
     float: right;
@@ -33,16 +37,29 @@
     line-height: 80px;
     margin-right: 25px;
 }
+.login, .register{
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
 .login{
-    margin: 0 25px;
+    color: rgb(252, 118, 29);
+    border: 1px solid rgb(252, 118, 29);
 }
 .register{
-    margin-left: 25px;
+    color: white;
+    background-color: rgb(252, 118, 29);
+    border: 1px solid rgb(252, 118, 29);
 }
-nav img{
+.reg2{
+    padding: 15px;
+}
+.logo{
+    float: left;
     line-height: 80px;
-    /* padding: 21px 21px 21px 0; */
-
+}
+.logo img{
+    vertical-align: middle;
 }
 .menu{
     float: right;
@@ -56,25 +73,58 @@ nav img{
 }
 .left h1{
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 50px 0;
 }
 .left p{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 30px 0;
-    line-height: 50px;
+    line-height: 30px;
 }
-.right, .left{
-    width: 50%;
-}
-.right{
-    float: right;
-    margin-right: 30px;
-    transform: translateX(-10%);
+.menu a{
+    text-decoration: none;
+    color: black;
 }
 .left{
-    
+    width: 50%;
+}
+.jumbotron{
+    background-image: url(img/jumbotron.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: visible;
+    height: 641px;
+    background-position: bottom right;
+}
+.boxcentrale img{
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.boxcentrale h2, .boxcentrale p{
+    text-align: center;
+}
+.boxcentrale p{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.boxcentrale{
+    padding: 40px;
+}
+.left1{
+    width: 25%;
+    float: left;
+    padding: 40px;
+}
+.left1 button{
+    /* text-align: center; */
+}
+.right1{
+    width: 75%;
+    float: left;
 }
 
 
@@ -107,11 +157,14 @@ nav img{
 }
 .b-grey{
     background-color: lightgrey;
-    height: 80px;
 }
 .b-rosa{
     background-color: #FEF6EE;
 }
 .b-verde{
     background-color: #AFEBE4;
+    height: 80px;
+}
+.b-white{
+    background-color: white;
 }
