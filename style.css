@@ -91,10 +91,10 @@
 }
 .jumbotron{
     background-image: url(img/jumbotron.png);
-    background-size: cover;
+    background-size: 80% 114%;
     background-repeat: no-repeat;
     height: 641px;
-    background-position-x: 200px;
+    background-position-x: 100%;
 }
 .boxcentrale img{
     position: relative;
@@ -289,13 +289,28 @@
     border-radius: 4px;
 }
 .container ul li{
-    position: relative;
-    left: 50%;
-    margin: 15px;
+    margin: 20px;
     margin-top: 40px;
-    transform: translateX(-50%);
     display: inline-block;
+
 }
+.lingue{
+    text-align: center;
+}
+/* .linkfin{
+    padding: 25px 0;
+    width: 200px;
+    float: right;
+} */
+.barrafin{
+    margin: 25px 0;
+}
+.barrafin a{
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
