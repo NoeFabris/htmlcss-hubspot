@@ -271,6 +271,31 @@
     right: -30%;
     width: 55%;
 }
+.colonneblu h3{
+    padding-top: 30px;
+}
+.colonneblu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+}
+.colonneblu button{
+    padding: 10px;
+    margin: 30px 0;
+    color: rgb(0, 43, 83);
+    border: 0px solid white;
+    background-color: white;
+    border-radius: 4px;
+}
+.container ul li{
+    position: relative;
+    left: 50%;
+    margin: 15px;
+    margin-top: 40px;
+    transform: translateX(-50%);
+    display: inline-block;
+}
 
 
 
@@ -316,4 +341,8 @@
 }
 .b-blu{
     background-color: rgb(29, 238, 203);
+}
+.b-bluscuro{
+    background-color: rgb(0, 43, 83);
+    color: white;
 }
