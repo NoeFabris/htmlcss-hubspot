@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 .container{
     width: 1500px;
@@ -223,9 +223,54 @@
     border-left: 1px solid white;
     border-right: 1px solid white;
 }
-
-
-
+.loghi div{
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+.loghi div img{
+    width: 80%;
+    line-height: 80px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.left1 h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.left1 h1, .left1 p{
+    padding-left: 50px;
+}
+.left1 p{
+    padding-top: 25px;
+    line-height: 30px;
+}
+.col{
+    width: 40%;
+}
+.colonnatext{
+    padding: 25px 0;
+    display: inline-block;
+}
+.colonnatext h1{
+    font-size: 2.5rem;
+}
+.colonnatext p, .colonnatext h1, .colonnatext button{
+    padding: 25px 0;
+}
+.colonnatext button{ 
+    width: 200px;
+}
+.colonnaimg{
+    float: right;
+}
+.colonnaimg img{
+    position: relative;
+    right: -30%;
+    width: 55%;
+}
 
 
 
